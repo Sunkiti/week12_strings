@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Сервис комментариев со спам фильтром</h1>
+    <div class="container">    
+        <form action="script.php" method="post"> 
+            <h2>Оставьте ваш комментарий</h2>
+            <div>
+                <label for="name">Введите ваше ФИО</label>
+                <div>  
+                    <input type="text" id="name"/>   
+                </div>
+            </div>
+            <div> 
+                <label for="url">Введите ссылку вашего аватара</label>
+                <div>
+                    <textarea name="url" id="avatar" cols="50" rows="5"></textarea>
+                </div>
+            </div>
+            <div>Оставьте комментарий 
+                <div>
+                    <textarea name="comments" cols="50" rows="10"></textarea>
+                </div>
+            </div>  
+            <button>Отправить</button>
+        </form>
+        <form action="script.php" method="post">
+            <h3>Чат</h3>
+            <div>
+                <label for="name"></label>
+                <div>  
+                    <input type="text" id="name"/>   
+                </div>
+            </div>
+            <div> 
+                <label for="url"></label>
+                <div>
+                    <textarea name="url" id="avatar" cols="50" rows="5"></textarea>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <textarea name="comments" cols="50" rows="10"></textarea>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
