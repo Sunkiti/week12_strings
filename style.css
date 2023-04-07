@@ -3,3 +3,7 @@
     flex-direction:row;
     gap: 2em;
 }
+#avatarResult{
+    background-image: none;
+    width:fit-content;
+}

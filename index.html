@@ -15,7 +15,7 @@
             <div>
                 <label for="name">Введите ваше ФИО</label>
                 <div>  
-                    <input type="text" id="name"/>   
+                    <input type="text" id="username"/>   
                 </div>
             </div>
             <div> 
@@ -29,25 +29,25 @@
                     <textarea name="comments" cols="50" rows="10"></textarea>
                 </div>
             </div>  
-            <button>Отправить</button>
+            <button class="btn">Отправить</button>
         </form>
         <form action="script.php" method="post">
             <h3>Чат</h3>
             <div>
                 <label for="name"></label>
                 <div>  
-                    <input type="text" id="name"/>   
+                    <input type="text" id="nameResult" readonly/>   
                 </div>
             </div>
             <div> 
                 <label for="url"></label>
                 <div>
-                    <textarea name="url" id="avatar" cols="50" rows="5"></textarea>
+                    <input type="image" id="avatarResult" alt="user's avatar" readonly/> 
                 </div>
             </div>
             <div>
                 <div>
-                    <textarea name="comments" cols="50" rows="10"></textarea>
+                    <textarea name="commentsResult" cols="50" rows="10" readonly></textarea>
                 </div>
             </div>
         </form>
