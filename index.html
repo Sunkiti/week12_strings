@@ -10,7 +10,7 @@
 <body>
     <h1>Сервис комментариев со спам фильтром</h1>
     <div class="container">    
-        <form action="script.php" method="post"> 
+        <form> 
             <h2>Оставьте ваш комментарий</h2>
             <div>
                 <label for="name">Введите ваше ФИО</label>
@@ -26,12 +26,12 @@
             </div>
             <div>Оставьте комментарий 
                 <div>
-                    <textarea name="comments" cols="50" rows="10"></textarea>
+                    <textarea name="comments" id="comments" cols="50" rows="10"></textarea>
                 </div>
             </div>  
-            <button class="btn">Отправить</button>
+            <button class="btn" type="button">Отправить</button>
         </form>
-        <form action="script.php" method="post">
+        <form>
             <h3>Чат</h3>
             <div>
                 <label for="name"></label>
