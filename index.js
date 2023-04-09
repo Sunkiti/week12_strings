@@ -20,30 +20,7 @@ btn.addEventListener('click', () => {
     const userComments = commentsElement.value;
     console.log(userComments);
     nameResult.value = nameElement.value;
-    avatarResult.setAttribute ("href", avatarElement.value) = avatarElement.value;
-    commentsResult.value = commentsElement;
+    document.querySelector ('#img').src = userAvatar;
+    commentsResult.value = commentsElement.value;
 })
-// var fileReader = new FileReader();
-// fileReader.onload = functino() {
-//     img1.src = fileReader.result;
-// }
 
-// fileReader.readAsDataURL(target.files[0]);
-// document.getElementById("avatar").addEventListener("change", function () {
-//     if (this.files[0]) {
-//     var fr = new FileReader();
-//     fr.addEventListener("load", function () {
-//     document.getElementById("avatarResult").style.backgroundImage = "url(" + fr.result + ")";
-// }, false);
-//     fr.readAsDataURL(this.files[0]);
-//     }
-// });
-
-
-// const block = document.querySelector('.block');
-// function changeBgImg(){
-//     block.style.backgroundImage = avatar;
-// }
-// function(){
-//     changeBgImg();
-// });
