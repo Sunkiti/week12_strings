@@ -15,7 +15,7 @@ console.log(commentsResult);
 btn.addEventListener('click', () => {
     const userName = nameElement.value;
     console.log(userName);
-    const userAvatar = avatarElement.style.backgroundImage;
+    const userAvatar = avatarElement.value;
     console.log (userAvatar);
     const userComments = commentsElement.value;
     console.log(userComments);
