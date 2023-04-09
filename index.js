@@ -20,7 +20,7 @@ btn.addEventListener('click', () => {
     const userComments = commentsElement.value;
     console.log(userComments);
     nameResult.value = nameElement.value;
-    avatarResult.style.backgroundImage = avatarElement;
+    avatarResult.setAttribute ("href", avatarElement.value) = avatarElement.value;
     commentsResult.value = commentsElement;
 })
 // var fileReader = new FileReader();
