@@ -27,6 +27,17 @@ function checkedWord(word) {
 }
 btn.addEventListener('click', () => {
     time.innerHTML = new Date;
+    // const show () => {
+    //         if () {
+    //             const m = document.getElementById('yes');
+    //             console.log (m);
+    //         document.getElementById('yes').checked = true;
+    //         const userName = nameElement.value;
+    //         nameResult.value = nameElement.value;
+    //     } else {
+    //         nameResult.value = 'Username';
+    //     }
+    // }
     const userName = nameElement.value;
     console.log(userName);
     const userAvatar = avatarElement.value;
