@@ -26,7 +26,7 @@ function checkedWord(word) {
     return `${word.slice(0, 1).toUpperCase()}${word.slice(1).toLowerCase()} `;
 }
 btn.addEventListener('click', () => {
-    const userTime = new Date;
+    time.innerHTML = new Date;
     const userName = nameElement.value;
     console.log(userName);
     const userAvatar = avatarElement.value;

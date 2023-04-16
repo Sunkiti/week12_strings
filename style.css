@@ -3,7 +3,7 @@
     flex-direction:row;
     gap: 2em;
 }
-#avatarResult{
+.userAvatar{
     background-image: none;
     width:fit-content;
     height: 270px;    
